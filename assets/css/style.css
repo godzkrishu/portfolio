@@ -204,7 +204,7 @@ header .navbar ul li a:hover {
 }
 .home .content {
   flex: 1 1 40rem;
-  padding-top: 1rem;
+  padding-top: 6rem;
   z-index: 1;
 }
 .home .image {
@@ -481,8 +481,7 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.8rem;
 }
 .skills .container .bar {
